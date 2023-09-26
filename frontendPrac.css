@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+/* 
+    This is a practice bubble game
+======================================
+
+body{
+    background-color: purple;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    width: 90%;
+    background-color:white;
+    border-radius: 7px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    width: 98.4%;
+    margin: 10px auto;
+    padding: 5px 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-item h2{
+    background-color: white;
+    color:black;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#bubble-container{
+    width: 100%;
+    padding: 15px;
+}
+
+.bubble-store{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bubble{
+    width: fit-content;
+    padding: 16px 21px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: purple;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.gmOver-container{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+
+.gmOver-container h1{
+    color: black;
+}
+
+.gmOver-container button{
+    width: 50%;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 10px;
+    background-color: gold;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    margin: auto;
+} */
+
+
+
+/*
+ This is a TODO LIST APP DESIGN 
+=================================
+body{
+    background-color: purple;
+    color: white;
+}
+
+#todo{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.todo-container{
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+table{
+    margin-block: 20px;
+}
+
+td, th{
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: black;
+    background-color: gold;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form-exit{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#form-container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: grid;
+    place-items: center;
+    background-color: #ffffff85;
+    visibility: hidden;
+}
+
+#form{
+    width: 70%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    font-size: 18px;
+}
+
+.submit{
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+}
+*/
+
+
+/* Start writing css for CALCULATOR
+======================================
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#calculator-container{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.calculator input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.171);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: right;
+}
+
+.numPad{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.numPad span{
+    height: 3rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size:2rem;
+    cursor: pointer;
+    background-color: red;
+} */
+
+
+/* 
+    This css is for game and the game is not complete
+   ====================================================  */
+
+#game{
+    background: url("https://images.hdqwalls.com/download/8-bit-nature-lu-2560x1024.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: none;
+}
+
+.anemi{
+    height: 87%;
+    border: 1px solid black;
+}
+
+.hero{
+    height: 13%;
+    border: 1px solid black;
+}
+
+.triger{
+    background-color: transparent;
+}
+
+.bullet{
+    padding: 10px;
+    background: black;
+    border-radius: 50%;
+    margin: 8px 23px;
+    position: absolute;
+    animation: bullet 2s ease-in-out;
+}
+
+@keyframes bullet{
+    0%{
+        display: block;
+        bottom: 56;
+        top: calc(100% - 13%);
+    }
+    50%{
+        display: block;
+        bottom: 56;
+        top: -30px;
+    }
+    100%{
+        display: block;
+        top: -30px;
+    }
+}
+
+.heroChar-container{
+    border: 1px solid black;
+    width: fit-content;
+    height: 100%;
+    display: grid;
+    margin:auto;
+}
+
+.heroChar{
+    padding: 10px 15px;
+    border: 8px solid black;
+    border-bottom: none;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.heroChar::after{
+    content: "";
+    background: black;
+    padding: 1px 10px;
+    position: relative;
+    bottom: 34px;
+}
+
+
+.fire{
+    position: relative;
+    bottom: 35px;
+    background: transparent;
+    border: 1px solid black;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.fire:active{
+    background-color: black;
+    color: white;
+}
